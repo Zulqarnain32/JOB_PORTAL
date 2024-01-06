@@ -175,3 +175,27 @@ body{
   margin-bottom: 12px;
   margin-top: 5px;
 }
+
+.banner-container{
+  background: url("/assets/banner.jpg");
+  height: 400px;
+  width: 100%;
+  margin-top: 40px;
+  background-size: cover;
+  background-position: center center;
+}
+.layer{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(32, 18, 70,.8);
+  color: #fff;
+  padding: 100px 40px;
+}
+.layer p{
+  margin: 20px 0;
+  line-height: 30px;
+}
+.layer span{
+  margin-right: 30px;
+  font-weight: 700;
+}
