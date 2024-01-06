@@ -6,6 +6,9 @@
   text-decoration: none;
   font-family: 'Poppins',sans-serif;
 }
+body{
+  margin-bottom: 100px;
+}
 
 ::-webkit-scrollbar{
   display: none;
@@ -21,6 +24,7 @@
   position: sticky;
   top: 0;
   z-index: 9;
+  background-color: #fff;
   /* background-color: rgb(180, 236, 68); */
 }
 .logo-img{
@@ -140,4 +144,34 @@
 }
 .home-content-container h1{
   word-spacing: 5px;
+  font-size: 50px;
+
+}
+
+/*? Vacency Css */
+.vacenies-container{
+  width: 82%;
+  margin: 0 auto;
+}
+.vacenies-container h1{
+  margin-bottom: 10px;
+}
+
+.vacency-box{
+  display: flex;
+  column-gap: 20px;
+}
+.single-vacency{
+  flex-grow: 1;
+}
+.vacency-box h3{
+  color: rgb(47, 47, 47);
+  font-weight: normal;
+  margin-top: 12px;
+}
+.vacency-box p{
+  color: rgb(170, 169, 169);
+  font-size: 12px;
+  margin-bottom: 12px;
+  margin-top: 5px;
 }

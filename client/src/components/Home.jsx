@@ -1,4 +1,5 @@
 import React from 'react'
+import Vacancies from './Vacancies'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
              <img src="/assets/home-img.avif" alt="" />
           </div>
       </div> 
+      <Vacancies/>
     </>
   )
 }
