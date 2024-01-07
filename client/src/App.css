@@ -307,11 +307,183 @@
 
 }
 .footer-patti{
-  background-color: yellow;
   height: 30px;
   text-align: center;
   line-height: 30px;
   color: #fff;
   background-color:rgb(115, 118, 232);
 
+}
+
+
+/*? Create job page css */
+.create-job-container{
+  /* background-color: red; */
+  height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.create-job-container form{
+  width: 600px;
+  padding: 30px 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.make-it-flex{
+  display: flex;
+  justify-content: space-between;
+} 
+.cr-title{
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+.create-job-container p{
+  margin-bottom: 3px;
+}
+.create-job-container input{
+  margin-bottom: 15px;
+  width: 270px;
+}
+.apply-now{
+  margin-top: 10px;
+  display: block;
+  padding: 10px 0;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  background-color:rgb(115, 118, 232);
+  font-size: 20px;
+}
+
+
+
+/* job css  */
+.job-container{
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 90%;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  justify-content: flex-start;
+  column-gap: 30px;
+  text-transform: capitalize;
+  flex-wrap: wrap;
+  row-gap: 30px;
+
+}
+.job{
+  padding: 30px 20px;
+  flex-basis: 31%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.job-heading{
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 14px;
+}
+
+.job-heading .letter{
+   flex-basis: 20%;
+   height: 50px;
+   height: 100%;
+}
+.l{
+  background-color: orange;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.job-title{
+  font-weight: 700;
+  font-size: 22px;
+}
+.job-info p{
+  margin-bottom: 10px;
+  color: rgb(109, 109, 109);
+}
+
+.btns{
+  margin-top: 10px;
+  display: flex;
+  
+}
+.btn{
+  /* height: 40px; */
+  /* width: 120px; */
+  padding: 7px 22px;
+  /* background-color: red; */
+  margin-right: 12px;
+  color: #fff;
+  cursor: pointer;
+}
+.apply-btn{
+  background-color:rgb(115, 118, 232);
+
+}
+.details{
+  background-color: orange;
+}
+.delete{
+  background-color: red;
+}
+.yellow{
+  background-color: rgb(255, 255, 38,.5);
+  display: inline-block;
+  padding: 3px 8px;
+}
+.green{
+  padding: 3px 8px;
+  background-color: rgb(118, 213, 118,.5);
+  display: inline-block;
+}
+
+
+/* read job  */
+.read-job-container{
+  width: 82%;
+  margin: 30px auto;
+}
+.read-job-container h1{
+  text-align: center;
+  text-transform: capitalize;
+}
+.post-by{
+  text-align: center;
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+.post-time{
+  color: rgb(172, 177, 177);
+  text-align: center;
+  margin-bottom: 30px;
+}
+.underline{
+  text-decoration: underline;
+  margin: 10px 0;
+}
+.des-p{
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+.vacancy{
+  margin: 8px 0;
+}
+.read-job-container ul li{
+  list-style: disc;
+  margin-left: 30px;
+}
+.sallary{
+  margin-top: 10px;
+}
+.send-cv{
+  margin-bottom: 6px;
 }

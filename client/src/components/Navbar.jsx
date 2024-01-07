@@ -7,8 +7,9 @@ const Navbar = () => {
     console.log("logout button is clicked");
     window.localStorage.clear();
     axios
-      .get("https://localhost:5000/auth/logout")
+      .get("http://localhost:5000/auth/logout")
       .then((result) => {
+        console.log(result.data.message);
         window.location.reload();
         console.log("token is clear " + result);
       })
@@ -27,10 +28,13 @@ const Navbar = () => {
             Home
           </Link>
           <Link to="/job" className="nav-link">
-            Job
+            Jobs
           </Link>
           <Link to="/dashboard" className="nav-link">
             Dashboard
+          </Link>
+          <Link to="/create-job" className="nav-link">
+            Create Job
           </Link>
           {window.localStorage.length > 0 ? (
             <Link to="/">

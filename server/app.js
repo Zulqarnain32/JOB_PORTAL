@@ -4,16 +4,18 @@ const app = express();
 const cors = require('cors')
 const cookieParser = require('cookie-parser')
 const userRouter = require('./Routes/auth')
+const jobRouter = require('./Routes/createjob')
 
 const port = 5000;
 app.use(cors({
     origin: ['http://localhost:5173'],
-    method: ['GET','POST'],
+    method: ['GET','POST','DELETE'],
     credentials:true
 }))
 app.use(express.json())
 app.use(cookieParser())
 app.use('/auth',userRouter)
+app.use('/createjob',jobRouter)
 
 
 
