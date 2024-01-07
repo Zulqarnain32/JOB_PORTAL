@@ -33,7 +33,7 @@ const Navbar = () => {
             Dashboard
           </Link>
           {window.localStorage.length > 0 ? (
-            <Link to="/auth/register">
+            <Link to="/">
               <button className="login-nav-btn" onClick={handleLogout}>
                 Logout
               </button>

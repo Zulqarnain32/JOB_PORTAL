@@ -6,9 +6,6 @@
   text-decoration: none;
   font-family: 'Poppins',sans-serif;
 }
-body{
-  margin-bottom: 100px;
-}
 
 ::-webkit-scrollbar{
   display: none;
@@ -236,7 +233,7 @@ body{
 .company-container h1{
   text-align: center;
   font-weight: 600;
-  font-size: 23px;
+  font-size: 20px;
   margin-top: 20px;
 }
 .teams{
@@ -246,18 +243,75 @@ body{
   align-items: center !important;
   justify-content: space-between;
   width: 82%;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 .teams img{
   width: 50px;
   height: 50px;
   vertical-align: middle;
   margin-top: -10px;
+  margin-left: 20px;
+}
+.teams img:nth-child(1){
+  margin-left: 0;
 }
 .teams span{
   margin-left: 8px;
   font-size: 24px;
 }
-.teams img{
-  margin-left: 20px;
+  
+
+
+/*? Footer Page css is here  */
+
+.footer-container{
+  height: 350px;
+  width: 82%;
+  margin: 0px auto;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 2.5fr 1fr 1fr 1fr;
+  column-gap: 30px;
+}
+.footer-social-links{
+  display: flex;
+  width: 100%;
+}
+.footer-social-links p {
+  background-color:rgb(115, 118, 232);
+
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+  color: #fff;
+  margin-right: 20px;
+  margin-top: -8px;
+  cursor: pointer;
+}
+.f-text{
+  line-height: 30px;
+  text-align: justify;
+  margin-top: 19px;
+}
+.footer-link h2{
+  margin-bottom: 35px;
+  font-weight: 600;
+  font-size: 20px;
+  color:rgb(115, 118, 232);
+}
+
+.footer-link p {
+  margin-bottom: 30px;
+
+}
+.footer-patti{
+  background-color: yellow;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  background-color:rgb(115, 118, 232);
+
 }

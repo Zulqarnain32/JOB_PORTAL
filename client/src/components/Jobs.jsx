@@ -1,10 +1,12 @@
 import React from 'react'
+import Footer from './Footer'
 
 const Jobs = () => {
   return (
-    <div>
+    <>
       <h1>will show to the user who have login</h1>
-    </div>
+      <Footer/>
+    </>
   )
 }
 
