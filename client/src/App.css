@@ -199,3 +199,65 @@ body{
   margin-right: 30px;
   font-weight: 700;
 }
+
+.work-cation{
+  /* margin-top: 50px; */
+  text-align: center;
+  width: 62%;
+  margin: 40px auto;
+}
+.ceo-img{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: 13px 0;
+}
+.ceo-msg{
+  font-weight: 600;
+  line-height: 30px;
+}
+.w-title{
+  margin-bottom: 30px;
+}
+.ceo-name{
+  font-weight: 600;
+}
+.light{
+  font-weight: normal;
+  color: rgb(105, 110, 110);
+  margin-left: 6px;
+}
+.w-icon{
+  margin-right: 8px;
+}
+.company-container{
+  margin-top: 100px;
+}
+.company-container h1{
+  text-align: center;
+  font-weight: 600;
+  font-size: 23px;
+  margin-top: 20px;
+}
+.teams{
+  display: flex;
+  height: 70px;
+  /* background-color: yellow; */
+  align-items: center !important;
+  justify-content: space-between;
+  width: 82%;
+  margin: 20px auto;
+}
+.teams img{
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  margin-top: -10px;
+}
+.teams span{
+  margin-left: 8px;
+  font-size: 24px;
+}
+.teams img{
+  margin-left: 20px;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import Vacancies from './Vacancies'
 import Banner from './Banner'
+import Companies from './Companies'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       </div> 
       <Vacancies/>
       <Banner/>
+      <Companies/>
     </>
   )
 }
