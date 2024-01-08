@@ -9,8 +9,8 @@ const Footer = () => {
       <div className="footer-container">
         <div className='c-content footer-link'>
         <div className="logo-side">
-          <img src="/assets/logo.png" className="logo-img"/>
-          <h3 className="logo-text">Job<span>Portal</span></h3>
+          <img src="/assets/logi1.png" className="logo-img"/>
+          {/* <h3 className="logo-text">Job<span>Portal</span></h3> */}
         </div>
         <p className='f-text'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed placeat dicta unde laboriosam a ad, dolore optio expedita. Iste praesentium obcaecati optio incidunt earum non saepe ex eos! Enim veniam,Lorem ipsum dolor sit amet adipisicing edit. Lorem ipsum dolor sit amet consectetur  Doloribus, consequuntur.</p>
         <div className="footer-social-links">

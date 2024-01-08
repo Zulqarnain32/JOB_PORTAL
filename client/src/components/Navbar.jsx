@@ -19,8 +19,9 @@ const Navbar = () => {
     <>
       <div className="navbar-container">
         <div className="logo-side">
-          <img src="/assets/logo.png" className="logo-img"/>
-          <h2 className="logo-text">Job<span>Portal</span></h2>
+          {/* <img src="/assets/logo.png" className="logo-img"/> */}
+          <img src="/assets/logi1.png" className="logo-img"/>
+          {/* <h2 className="logo-text">Job<span>Portal</span></h2> */}
         </div>
 
         <div className="nav-links">
@@ -33,6 +34,9 @@ const Navbar = () => {
           <Link to="/dashboard" className="nav-link">
             Dashboard
           </Link>
+          <Link to="/recruiter" className="nav-link">
+            Recruiter
+          </Link>
           <Link to="/create-job" className="nav-link">
             Create Job
           </Link>
@@ -43,7 +47,7 @@ const Navbar = () => {
               </button>
             </Link>
           ) : (
-            <Link to="/register">
+            <Link to="/login">
               <button className="login-nav-btn">Login</button>
             </Link>
           )}
